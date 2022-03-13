@@ -1,5 +1,5 @@
 # Swift Login
-
+### Login and Password Authentication, with sending UserName info to the second screen
 * Two-screen application
 * Authorization with login and password
 * Error Correction
