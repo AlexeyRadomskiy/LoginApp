@@ -135,7 +135,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="👋" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZU4-ar-7a5">
-                                <rect key="frame" x="153" y="263" width="108" height="120"/>
+                                <rect key="frame" x="153" y="273" width="108" height="120"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="100"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -146,7 +146,7 @@
                         <constraints>
                             <constraint firstItem="DEQ-Pr-N2z" firstAttribute="top" secondItem="sQi-Xu-sla" secondAttribute="top" constant="150" id="OHe-Cq-r2d"/>
                             <constraint firstItem="DEQ-Pr-N2z" firstAttribute="centerX" secondItem="sQi-Xu-sla" secondAttribute="centerX" id="VGi-RJ-gln"/>
-                            <constraint firstItem="ZU4-ar-7a5" firstAttribute="top" secondItem="DEQ-Pr-N2z" secondAttribute="bottom" constant="40" id="ZdO-zC-hPO"/>
+                            <constraint firstItem="ZU4-ar-7a5" firstAttribute="top" secondItem="DEQ-Pr-N2z" secondAttribute="bottom" constant="50" id="ZdO-zC-hPO"/>
                             <constraint firstItem="ZU4-ar-7a5" firstAttribute="centerX" secondItem="sQi-Xu-sla" secondAttribute="centerX" id="g4g-HU-kuZ"/>
                             <constraint firstItem="sQi-Xu-sla" firstAttribute="bottom" secondItem="ILg-Mi-oMm" secondAttribute="bottom" constant="150" id="o6j-yU-Zrr"/>
                             <constraint firstItem="ILg-Mi-oMm" firstAttribute="centerX" secondItem="sQi-Xu-sla" secondAttribute="centerX" id="swY-nx-zIo"/>
