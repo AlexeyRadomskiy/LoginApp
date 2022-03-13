@@ -7,4 +7,5 @@
 * Keyboard setup (Return button transitions)
 * Setting a gradient background
 * Working with UITextField
-* ![SwiftLogin](https://user-images.githubusercontent.com/100304243/157537260-ca4248a3-6c98-4db5-88da-fc8389dca882.png)
+
+![SwiftLogin](https://user-images.githubusercontent.com/100304243/157537260-ca4248a3-6c98-4db5-88da-fc8389dca882.png)
