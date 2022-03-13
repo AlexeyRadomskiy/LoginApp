@@ -39,6 +39,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6CA3432727DE09CD00A06801 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				6CF3599927D913260018298C /* AppDelegate.swift */,
+				6CF3599B27D913260018298C /* SceneDelegate.swift */,
+				6CF359A727D913270018298C /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		6CA3432827DE09D500A06801 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6CF3599D27D913260018298C /* LoginViewController.swift */,
+				6CF359AD27D9188E0018298C /* WelcomeViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6CA3432927DE09E900A06801 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				6CF3599F27D913260018298C /* Main.storyboard */,
+				6CF359A427D913270018298C /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		6CA3432A27DE09F100A06801 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6CF359A227D913270018298C /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		6CF3598D27D913260018298C = {
 			isa = PBXGroup;
 			children = (
@@ -58,14 +94,10 @@
 		6CF3599827D913260018298C /* LoginApp */ = {
 			isa = PBXGroup;
 			children = (
-				6CF3599927D913260018298C /* AppDelegate.swift */,
-				6CF3599B27D913260018298C /* SceneDelegate.swift */,
-				6CF3599D27D913260018298C /* LoginViewController.swift */,
-				6CF359AD27D9188E0018298C /* WelcomeViewController.swift */,
-				6CF3599F27D913260018298C /* Main.storyboard */,
-				6CF359A227D913270018298C /* Assets.xcassets */,
-				6CF359A427D913270018298C /* LaunchScreen.storyboard */,
-				6CF359A727D913270018298C /* Info.plist */,
+				6CA3432827DE09D500A06801 /* ViewControllers */,
+				6CA3432927DE09E900A06801 /* Storyboards */,
+				6CA3432A27DE09F100A06801 /* Resources */,
+				6CA3432727DE09CD00A06801 /* App */,
 			);
 			path = LoginApp;
 			sourceTree = "<group>";
@@ -295,7 +327,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MAMAND5R9P;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = LoginApp/Info.plist;
+				INFOPLIST_FILE = LoginApp/App/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Swift Login";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -305,7 +337,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = AlexeyRadomskiy.LoginApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -323,7 +355,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MAMAND5R9P;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = LoginApp/Info.plist;
+				INFOPLIST_FILE = LoginApp/App/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Swift Login";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -333,7 +365,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = AlexeyRadomskiy.LoginApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
